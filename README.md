@@ -21,14 +21,15 @@ $self_url = 'http://localhost/';                        // root url for your pro
 $include_url = $_SERVER['DOCUMENT_ROOT']."/";           // root physical path for your project
 
 
-4 - Everithing should be working. To navigate to the API endpoints and call the web services, in your Rest Client app (like Postman), make an HTTP Request to "http://MY_HOST_NAME_OR_IP/api/ENDPOINT_NAME"
+4 - Everything should be working now. To navigate to the API endpoints and call the web services, in your Rest Client app (like Postman), make an HTTP Request to "http://MY_HOST_NAME_OR_IP/api/ENDPOINT_NAME"
 
 where "ENDPOINT_NAME" can be found in the API documentation on the .html file "APISpecificationDoc.html" on the root folder of this project.
 
 # live demo
 You can see a live demo, with a basic frontend implementation to see how the API works. Please note that this webpage has only been created to test the API functionality and has not been tested in mobile devices. You will have to create an account and after that, login to the webpage to be able to create or edit yor Roster.
 
-Frontend URL: http://robotitlista.innvatis.com
+Frontend URL: http://dev3.innvatis.com
+Online API endpoint documantation: http://dev3.innvatis.com/APISpecificationDoc.html
 
 
 # unit tests
