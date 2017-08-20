@@ -1,6 +1,5 @@
 # rosterbots
-Roster bots application API created with SLIM framework
-
+Roster bots application API
 # installation
 
 1 - Download or clone repository.
