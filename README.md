@@ -32,6 +32,8 @@ Frontend URL: http://dev3.innvatis.com
 
 Online API endpoints documentation: http://dev3.innvatis.com/APISpecificationDoc.html
 
+You can also test the API endpoints in the online version sending HTTP reuests to http://dev3.innvatis.com/api/SOME_ENDPOINT following the API documentation
+
 
 # unit tests
 You can find some Unit Tests created with PHPUnit in the folder "/api/tests". In order to excecute them you will need to use PhpUnit framework. This project has been created and tested in a PHP 5.5 server. Apache version 2.4.9.
