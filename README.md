@@ -8,6 +8,7 @@ Roster bots application API
 
 3 - Find the configuration file "settings.php" in project root and change the following variables, with your local or remote server information:
 
+```
 $db_host = 'localhost';                                 // your mySQL host name or IP address
 
 $db_user = 'root';                                      // your MySQL user
@@ -19,7 +20,7 @@ $db_name = 'rosterbots';                                // the name of your MySQ
 $self_url = 'http://localhost/';                        // root url for your project
 
 $include_url = $_SERVER['DOCUMENT_ROOT']."/";           // root physical path for your project
-
+```
 
 4 - Everything should be working now. To navigate to the API endpoints and call the web services, in your Rest Client app (like Postman), make an HTTP Request to "http://MY_HOST_NAME_OR_IP/api/ENDPOINT_NAME"
 
