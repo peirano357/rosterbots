@@ -6,7 +6,7 @@ Roster bots application API
 
 2 - Create a MySQL database and import the database structure and data from the folder "SQL" located in project root folder.
 
-3 - Find the configuration file "settings.php" in project root and change the following variables, with your local or server information:
+3 - Find the configuration file "settings.php" in project root and change the following variables, with your local or remote server information:
 
 $db_host = 'localhost';                                 // your mySQL host name or IP address
 
