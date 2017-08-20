@@ -35,8 +35,10 @@ Frontend URL: http://robotitlista.innvatis.com
 # unit tests
 You can find some Unit Tests created with PHPUnit in the folder "/api/tests". In order to excecute them you will need to use PhpUnit framework. This project has been created and tested in a PHP 5.5 server. Apache version 2.4.9.
 
-# project structure
+Please not that for testing with PHPUnit, you should set up the "settings_test.php" file with the same structurethan file in point 3 above. And I suggest you to use a clean database, wich its structure and data can be found in the /SQL folder too, by the name "rosterbots_testing.sql"
 
+
+# project structure
 Controllers: you can find the API controllers in the folder /api/controller. This classes inherits from the SLIM framework controller and here are defined the endpoint routes and the functions associated with them.
 
 Models: you can find the model classes in the folder /api/model. This classes inherits from two basic classes for accesing the database and manipulating objects that can be found in the folder /lib.
