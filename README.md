@@ -29,7 +29,8 @@ where "ENDPOINT_NAME" can be found in the API documentation on the .html file "A
 You can see a live demo, with a basic frontend implementation to see how the API works. Please note that this webpage has only been created to test the API functionality and has not been tested in mobile devices. You will have to create an account and after that, login to the webpage to be able to create or edit yor Roster.
 
 Frontend URL: http://dev3.innvatis.com
-Online API endpoint documantation: http://dev3.innvatis.com/APISpecificationDoc.html
+
+Online API endpoints documentation: http://dev3.innvatis.com/APISpecificationDoc.html
 
 
 # unit tests
