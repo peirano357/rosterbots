@@ -33,7 +33,7 @@ Frontend URL: http://dev3.innvatis.com
 
 Online API endpoints documentation: http://dev3.innvatis.com/APISpecificationDoc.html
 
-You can also test the API endpoints in the online version sending HTTP reuests to http://dev3.innvatis.com/api/SOME_ENDPOINT following the API documentation
+You can also test the API endpoints in the online version sending HTTP requests to http://dev3.innvatis.com/api/SOME_ENDPOINT following the API documentation
 
 Frontend UI has been implemented using the following AngularJS Template:
 
@@ -47,7 +47,7 @@ Please note that for testing with PHPUnit, you will need to set up the "settings
 
 
 # project structure
-Controllers: you can find the API controllers in the folder /api/controller. This classes inherit from the SLIM framework controller and here are you can find the endpoint routes and functions associated with them.
+Controllers: you can find the API controllers in the folder /api/controller. This classes inherit from the SLIM framework controller and here you can find the endpoint routes and functions associated with them.
 
 Models: you can find the model classes in the folder /api/model. This classes inherits from two basic classes for accessing the database and manipulating objects that can be found in the folder /lib.
 
