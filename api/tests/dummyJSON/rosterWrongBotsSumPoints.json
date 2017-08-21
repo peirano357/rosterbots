@@ -1,0 +1,111 @@
+{  
+   "token":"9428da678cd2389bfc8a70283beede00",
+   "id":"12",
+   "bots":[  
+      {  
+         "name": "Juan",
+         "id":"319",
+         "strength":"1",
+         "speed":"1",
+         "agility":"1"
+      },
+      {  
+         "name": "Pedro",
+         "id":"320",
+         "strength":"1",
+         "speed":"2",
+         "agility":"1"
+      },
+      {  
+        "name": "Maria",
+         "id":"321",
+         "strength":"1",
+         "speed":"3",
+         "agility":"1"
+      },
+      {  
+         "name": "Florencia",
+         "id":"322",
+         "strength":"1",
+         "speed":"4",
+         "agility":"1"
+      },
+      {  
+        "name": "Alejandro",
+    	 "id":"323",
+         "strength":"1",
+         "speed":"5",
+         "agility":"1"
+      },
+      {  
+         "name": "Ivana",
+    	 "id":"324",
+         "strength":"1",
+         "speed":"6",
+         "agility":"1"
+      },
+      {  
+    	 "name": "Miriam",	
+    	 "id":"325",
+         "strength":"1",
+         "speed":"7",
+         "agility":"1"
+      },
+      {  
+    	 "name": "Ines",
+         "id":"326",
+         "strength":"1",
+         "speed":"8",
+         "agility":"1"
+      },
+      {  
+         "name": "Roberto",
+         "id":"327",
+         "strength":"1",
+         "speed":"9",
+         "agility":"1"
+      },
+      {  
+         "name": "Franco",
+         "id":"328",
+         "strength":"1",
+         "speed":"10",
+         "agility":"1"
+      },
+      {  
+         "name": "Cecilia",
+         "id":"329",
+         "strength":"1",
+         "speed":"11",
+         "agility":"1"
+      },
+      {  
+        "name": "Ricardo",
+         "id":"330",
+         "strength":"1",
+         "speed":"12",
+         "agility":"1"
+      },
+      {  
+        "name": "Alejandra",
+         "id":"331",
+         "strength":"1",
+         "speed":"13",
+         "agility":"1"
+      },
+      {  
+         "name": "Romina",
+         "id":"332",
+         "strength":"1",
+         "speed":"14",
+         "agility":"1"
+      },
+      {  
+         "name": "Laura",
+         "id":"333",
+         "strength":"1",
+         "speed":"50",
+         "agility":"2"
+      }
+   ]
+}

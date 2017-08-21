@@ -1,0 +1,32 @@
+RewriteEngine on
+
+RewriteRule \.(css|jpe?g|gif|png|js|ico)$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+
+ErrorDocument 404 /404.php
+
+# PAGINAS ESTATICAS
+RewriteRule home/(.*) index.php?page=$1 [QSA,L]
+#RewriteRule producciones-periodisticas seccion.php?id=4 [QSA,L]
+#RewriteRule contacto contacto.php [QSA,L]
+RewriteRule no-encontrado 404.php [QSA,L]
+
+# DETALLE DE RECETA
+RewriteRule receta/(.*)/(.*) recipe.php?id=$1&slug=$2 [QSA,L]
+
+RewriteRule producto/(.*)/(.*) product.php?id=$1&slug=$2 [QSA,L]
+
+RewriteRule asesoramiento/(.*)/(.*) static.php?id=$1&slug=$2 [QSA,L]
+RewriteRule estas-listo static.php?id=9&slug=estas-listo [QSA,L]
+
+RewriteRule compra-pendiente static.php?id=10&slug=compra-pendiente-mercadopago [QSA,L]
+RewriteRule compra-completa static.php?id=11&slug=compra-completa-mercadopago [QSA,L]
+
+RewriteRule fitness/videos/(.*) videos.php?page=$1 [QSA,L]
+RewriteRule fitness/video/(.*)/(.*) video.php?id=$1&slug=$2 [QSA,L]
+
+RewriteRule recetas/categoria/([^/]*)/([^/]*)/([^/]*)$ section.php?id=$1&slug=$2&page=$3
+RewriteRule recetas/filtro/([^/]*)/([^/]*)/([^/]*)$ tag.php?id=$1&slug=$2&page=$3
+RewriteRule noticias/categoria/([^/]*)/([^/]*)/([^/]*)$ section.php?id=$1&slug=$2&page=$3	
+RewriteRule productos/categoria/([^/]*)/([^/]*)/([^/]*)$ product-section.php?id=$1&slug=$2&page=$3
