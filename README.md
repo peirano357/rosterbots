@@ -1,3 +1,7 @@
+# Code Challenge requirements here:
+http://c0880059.ferozo.com/RosterBots.pdf
+
+
 # rosterbots
 Roster bots application API
 # installation
