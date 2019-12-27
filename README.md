@@ -1,5 +1,5 @@
 # Code Challenge requirements here:
-http://c0880059.ferozo.com/RosterBots.pdf
+http://dev2.innvatis.com/RosterBots.pdf
 
 
 # rosterbots
